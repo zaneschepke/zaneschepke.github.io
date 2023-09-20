@@ -1,0 +1,33 @@
+{
+  "private": true,
+  "name": "cara",
+  "description": "Playful and Colorful One-Page portfolio featuring Parallax effects and animations",
+  "version": "0.2.15",
+  "author": "LekoArts",
+  "license": "0BSD",
+  "starter-name": "gatsby-starter-portfolio-cara",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "develop:cypress": "cross-env CYPRESS_SUPPORT=y yarn develop",
+    "build:cypress": "cross-env CYPRESS_SUPPORT=y yarn build",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@lekoarts/gatsby-theme-cara": "^5.1.4",
+    "gatsby": "^5.12.3",
+    "gatsby-plugin-manifest": "^5.12.0",
+    "gatsby-plugin-webpack-statoscope": "^1.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.17.12",
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "cross-env": "^7.0.3",
+    "typescript": "^5.2.2"
+  }
+}
