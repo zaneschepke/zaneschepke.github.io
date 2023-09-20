@@ -11,6 +11,7 @@
     "develop": "gatsby develop",
     "develop:cypress": "cross-env CYPRESS_SUPPORT=y yarn develop",
     "build:cypress": "cross-env CYPRESS_SUPPORT=y yarn build",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d -f public",
     "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
@@ -28,6 +29,7 @@
     "@types/react": "^18.2.21",
     "@types/react-dom": "^18.2.7",
     "cross-env": "^7.0.3",
+    "gh-pages": "^6.0.0",
     "typescript": "^5.2.2"
   }
 }
