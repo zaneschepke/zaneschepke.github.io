@@ -1,0 +1,90 @@
+---
+baseURL: "https://zaneschepke.com/"
+title: "z.schepke"
+
+theme: "PaperMod"
+
+#Copyright: "Content under license [CC BY-NC-SA 3.0](http://creativecommons.org/licenses/by-nc-sa/3.0/)"
+minify:
+  disableXML: true
+
+RemovePathAccents: true
+pygmentsUseClasses: true
+pygmentsCodeFences: true
+
+LanguageCode: "en"
+
+enableRobotsTXT: true
+
+params:
+  ShowReadingTime: true
+  disableSpecial1stPost: true
+  ShowBreadCrumbs: true
+  disableFingerprinting: true
+  assets:
+    disableHLJS: true
+  profileMode:
+    enabled: true
+    title: Zane Schepke
+    subtitle: Software Developer
+    buttons:
+      - name: gitea
+        url: "https://gitea.zaneschepke.com"
+  socialIcons:
+    - name: github
+      url: "https://github.com/zaneschepke"
+    - name: liberapay
+      url: "https://liberapay.com/zaneschepke/"
+    - name: kofi
+      url: "https://ko-fi.com/zaneschepke"
+    - name: stackoverflow
+      url: "https://stackoverflow.com/users/7876371/zane-schepke"
+    - name: x
+      url: "https://twitter.com/zaneschepke"
+#    - name: matrix
+#      url: ""
+#    - name: telegram
+#      url: ""
+#  analytics:
+#    umami:
+#      Host: ""
+#      SiteId: ""
+
+rssLimit: 10
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
+menu:
+  main:
+    - identifier: projects
+      name: projects
+      url: /projects/
+      weight: 1
+    - identifier: about
+      name: about
+      url: /about/
+      weight: 3
+    - identifier: blog
+      name: blog
+      url: "https://blog.zaneschepke.com"
+      weight: 4
+
+author:
+  name: "Zane Schepke"
+  github: "zaneschepke"
+  x: "zaneschepke"
+
+privacy:
+  x:
+    simple: true
