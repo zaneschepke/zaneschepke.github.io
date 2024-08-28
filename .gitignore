@@ -1,2 +1,5 @@
 *.lock
 .idea
+static/.DS_Store
+.DS_Store
+/public
