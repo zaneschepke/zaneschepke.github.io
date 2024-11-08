@@ -42,9 +42,9 @@ params:
       url: "https://stackoverflow.com/users/7876371/zane-schepke"
     - name: x
       url: "https://twitter.com/zaneschepke"
+    - name: telegram
+      url: "https://t.me/zaneschepke"
 #    - name: matrix
-#      url: ""
-#    - name: telegram
 #      url: ""
 #  analytics:
 #    umami:
@@ -70,15 +70,15 @@ menu:
   main:
     - identifier: projects
       name: projects
-      url: /projects
+      url: /projects/
       weight: 1
     - identifier: about
       name: about
-      url: /about
+      url: /about/
       weight: 3
-    - identifier: donate
+    - identifier: support
       name: support
-      url: /support
+      url: /support/
       weight: 3
     - identifier: blog
       name: blog
