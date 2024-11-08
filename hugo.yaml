@@ -76,9 +76,9 @@ menu:
       name: about
       url: /about/
       weight: 3
-    - identifier: support
-      name: support
-      url: /support/
+    - identifier: donate
+      name: donate
+      url: /donate/
       weight: 3
     - identifier: blog
       name: blog
