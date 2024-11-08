@@ -25,9 +25,9 @@ params:
     enabled: true
     title: Zane Schepke
     subtitle: Software Developer
-    buttons:
-      - name: gitea
-        url: "https://gitea.zaneschepke.com"
+    # buttons:
+    #   - name: gitea
+    #     url: "https://gitea.zaneschepke.com"
   assets:
     disableHLJS: true
     favicon: "/assets/favicon.ico"
@@ -38,10 +38,6 @@ params:
   socialIcons:
     - name: github
       url: "https://github.com/zaneschepke"
-    - name: liberapay
-      url: "https://liberapay.com/zaneschepke/"
-    - name: kofi
-      url: "https://ko-fi.com/zaneschepke"
     - name: stackoverflow
       url: "https://stackoverflow.com/users/7876371/zane-schepke"
     - name: x
@@ -74,11 +70,15 @@ menu:
   main:
     - identifier: projects
       name: projects
-      url: /projects/
+      url: /projects
       weight: 1
     - identifier: about
       name: about
-      url: /about/
+      url: /about
+      weight: 3
+    - identifier: donate
+      name: support
+      url: /support
       weight: 3
     - identifier: blog
       name: blog
