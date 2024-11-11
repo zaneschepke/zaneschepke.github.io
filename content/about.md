@@ -1,5 +1,5 @@
 ---
-title: Zane Schepke
+title: About me
 ---
 
 My name is Zane Schepke. I'm a software developer based out of Detroit, Michigan.
