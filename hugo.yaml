@@ -1,6 +1,6 @@
 ---
 baseURL: "https://zaneschepke.com/"
-title: "z.schepke"
+title: "zane"
 
 theme: "PaperMod"
 
@@ -17,14 +17,15 @@ LanguageCode: "en"
 enableRobotsTXT: true
 
 params:
-  ShowReadingTime: true
+  ShowCodeCopyButtons: true
+  ShowReadingTime: false
   disableSpecial1stPost: true
-  ShowBreadCrumbs: true
+  ShowBreadCrumbs: false
   disableFingerprinting: true
   profileMode:
     enabled: true
-    title: Zane Schepke
-    subtitle: Software Developer
+    title: zane schepke
+    subtitle: software developer
     # buttons:
     #   - name: gitea
     #     url: "https://gitea.zaneschepke.com"
@@ -85,7 +86,7 @@ menu:
       weight: 4
 
 author:
-  name: "Zane Schepke"
+  name: "zane schepke"
   github: "zaneschepke"
   x: "zaneschepke"
 

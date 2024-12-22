@@ -1,0 +1,7 @@
+:root {
+    --theme: #your-background-color-hex-code; /* replace with your desired color */
+  }
+  
+  .dark {
+    --theme: rgb(13,17,23); /* optional, for dark mode */
+  }
