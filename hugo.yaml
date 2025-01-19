@@ -44,12 +44,8 @@ params:
       url: "https://twitter.com/zaneschepke"
     - name: telegram
       url: "https://t.me/zaneschepke"
-#    - name: matrix
-#      url: ""
-#  analytics:
-#    umami:
-#      Host: ""
-#      SiteId: ""
+    - name: email
+      url: "mailto:dev@zaneschepke.com"
 
 rssLimit: 10
 
