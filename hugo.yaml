@@ -22,6 +22,8 @@ params:
   disableSpecial1stPost: true
   ShowBreadCrumbs: false
   disableFingerprinting: true
+  name: "Zane Schepke"
+  email: "dev@zaneschepke.com"
   profileMode:
     enabled: true
     title: zane schepke
@@ -44,6 +46,8 @@ params:
       url: "https://twitter.com/zaneschepke"
     - name: telegram
       url: "https://t.me/zaneschepke"
+    - name: matrix
+      url: "https://matrix.to/#/@zaneschepke:matrix.org"
     - name: email
       url: "mailto:dev@zaneschepke.com"
 
@@ -68,23 +72,18 @@ menu:
       name: projects
       url: /projects/
       weight: 1
-    - identifier: about
-      name: about
-      url: /about/
-      weight: 3
+    - identifier: comission
+      name: commission
+      url: /commission/
+      weight: 2
     - identifier: donate
       name: donate
       url: /donate/
       weight: 3
-    - identifier: blog
-      name: blog
-      url: "https://blog.zaneschepke.com"
+    - identifier: about
+      name: about
+      url: /about/
       weight: 4
-
-author:
-  name: "zane schepke"
-  github: "zaneschepke"
-  x: "zaneschepke"
 
 privacy:
   x:
