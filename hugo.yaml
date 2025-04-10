@@ -40,8 +40,6 @@ params:
   socialIcons:
     - name: github
       url: "https://github.com/zaneschepke"
-    - name: stackoverflow
-      url: "https://stackoverflow.com/users/7876371/zane-schepke"
     - name: x
       url: "https://twitter.com/zaneschepke"
     - name: telegram
