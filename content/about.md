@@ -14,5 +14,5 @@ I’m driven to create software for two reasons: to provide for my family and to
 to people’s lives. I believe every person is inherently valuable, a unique creation and 
 reflection of God with a unique purpose, despite their contributions or circumstances. 
 If humanity’s existence were a mere random happenstance, we would have no intrinsic worth. 
-This conviction fuels my commitment to open-source software, where maximum transparency 
-serves the best interests of users.
+It is this belief that fuels my commitment to creating open-source software, where maximum 
+transparency is in the best interests of users.
