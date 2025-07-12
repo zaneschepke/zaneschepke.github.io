@@ -1,5 +1,5 @@
 ---
-title: "projects"
+title: Projects
 ---
 <font size="5"> **[WG Tunnel](https://github.com/zaneschepke/wgtunnel)** *- Owner* </font> \
 <font size="3"> An alternative Android client app for WireGuard VPN </font>

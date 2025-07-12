@@ -1,5 +1,5 @@
 ---
-title: commission
+title: Commission
 ---
 
 I am open for commissions in desktop and mobile app development.

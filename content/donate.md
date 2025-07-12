@@ -1,5 +1,5 @@
 ---
-title: donate
+title: Donate
 ---
 
 Thank you for considering supporting my work!

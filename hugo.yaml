@@ -1,6 +1,6 @@
 ---
 baseURL: "https://zaneschepke.com/"
-title: "zane"
+title: "Zane"
 
 theme: "PaperMod"
 
@@ -26,8 +26,8 @@ params:
   email: "dev@zaneschepke.com"
   profileMode:
     enabled: true
-    title: zane schepke
-    subtitle: software developer
+    title: Zane Schepke
+    subtitle: Software Developer
     # buttons:
     #   - name: gitea
     #     url: "https://gitea.zaneschepke.com"
@@ -70,7 +70,7 @@ menu:
       name: projects
       url: /projects/
       weight: 1
-    - identifier: comission
+    - identifier: commission
       name: commission
       url: /commission/
       weight: 2
