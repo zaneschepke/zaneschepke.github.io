@@ -28,9 +28,9 @@ params:
     enabled: true
     title: Zane Schepke
     subtitle: Software Developer
-    # buttons:
-    #   - name: gitea
-    #     url: "https://gitea.zaneschepke.com"
+    buttons:
+      - name: gitea
+        url: "https://git.zaneschepke.com"
   assets:
     favicon: "https://zaneschepke.com/favicon.ico"
     favicon16x16: "https://zaneschepke.com/favicon-16x16.png"
@@ -55,7 +55,6 @@ outputs:
   home:
     - HTML
     - RSS
-    - JSON # necessary for search
 
 markup:
   goldmark:
@@ -66,17 +65,14 @@ markup:
 
 menu:
   main:
-    - identifier: projects
-      name: Projects
-      url: /projects/
+    - name: Work
+      url: https://github.com/zaneschepke
       weight: 1
-    - identifier: commission
-      name: Commission
-      url: /commission/
+    - name: Resume
+      url: https://rxresu.me/zaneschepke/software-resume
       weight: 2
-    - identifier: donate
-      name: Donate
-      url: /donate/
+    - name: Donate
+      url: https://wgtunnel.com/donate
       weight: 3
     - identifier: about
       name: About
