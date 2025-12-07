@@ -27,10 +27,7 @@ params:
   profileMode:
     enabled: true
     title: Zane Schepke
-    subtitle: Software Developer
-    buttons:
-      - name: gitea
-        url: "https://git.zaneschepke.com"
+    subtitle: Software Engineer
   assets:
     favicon: "https://zaneschepke.com/favicon.ico"
     favicon16x16: "https://zaneschepke.com/favicon-16x16.png"

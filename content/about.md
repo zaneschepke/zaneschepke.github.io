@@ -2,9 +2,9 @@
 title: About Me
 ---
 
-My name is Zane Schepke, a software developer based in Michigan. 
+My name is Zane Schepke, a software engineer based in Michigan. 
 
-Throughout my career, I’ve worked in various technical and software development 
+Throughout my career, I’ve worked in various technical and software engineering 
 roles for both large and small corporations. In these roles, I’ve observed that 
 many corporations are either overtly or covertly self-serving, prioritizing 
 quarterly reports, stock or token prices, bureaucratic preservation, or perceived virtue 
